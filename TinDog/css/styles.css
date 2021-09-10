@@ -1,0 +1,185 @@
+
+body{
+    font-family: Montserrat;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family: Montserrat; 
+    font-size: 3.5rem;
+    line-height: 70px;
+}
+h2{
+    font-family: Montserrat;
+    font-size: 45px;
+    line-height: 65px;
+}
+h3{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    margin-top: -25px;
+    padding:0 0 30px;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 40px;
+}
+.nav-item{
+    padding: 15px;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+.nav-link:hover {
+    text-decoration: none;
+}
+
+/* Download Button */
+
+.download-btn{
+ margin: 5% 3% 3% 0;   
+}
+
+/* Title Image */
+
+.clm{
+    padding-top: 80px;
+}
+.title-img{
+    width: 55%;
+    transform: rotate(25deg);
+    margin-left: 20%;
+    padding-top: 40px;
+    position: relative;
+}
+
+/* Features */
+
+.container-fluid2{
+    line-height: 30px;
+    padding: 7% 17%;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+}
+.row2{
+    text-align: center;
+}
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68 ;
+}
+.feature-par{
+    color: #8f8f8f;
+    font-size: Ubuntu;
+}
+
+/* Testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding-top: 100px;
+    text-align: center;
+    padding: 7% 17%;
+}
+
+/* CTA */
+
+#cta{
+    padding: 5% 1%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-h3{
+    padding: 3% 5%;
+    padding-bottom: 65px;
+    line-height: 85px;
+    color: #fff;
+    font-size: 55px;
+}
+.ctn-btn{
+    margin: 10px;
+}
+
+/* Footer */
+
+.footer-para{
+    text-align: center;
+    padding: 7% 15%;
+    color: gray;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+.footer-icon{
+    color: rgb(26, 25, 25);
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+/* Media Responsive */
+
+@media(min-width:991px) and (max-width:1178px){
+    .clm>h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:991px) {
+    
+    .row-title{
+        text-align: center;
+    }
+    
+    .title-img{
+        transform: rotate(0);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .clm>h1{
+        font-size: 35 px;
+    }
+    
+}
